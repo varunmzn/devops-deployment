@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: restaurantapp
-          image: vbmb2012/restaurantlisting:646
+          image: vbmb2012/restaurantlisting:647
           imagePullPolicy: Always
           ports:
             - containerPort: 9091
