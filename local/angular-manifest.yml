@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: angular-app-container
-          image: vbmb2012/fooddelivery:0.0.20
+          image: vbmb2012/fooddelivery:1.0.0
           imagePullPolicy: Always
           ports:
             - containerPort: 80

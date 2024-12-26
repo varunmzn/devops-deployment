@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: eureka
-          image: vbmb2012/eureka-server:0.0.2
+          image: vbmb2012/eureka-server:1.0.9
           imagePullPolicy: Always
           ports:
             - containerPort: 8761

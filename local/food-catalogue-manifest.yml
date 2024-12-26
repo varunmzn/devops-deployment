@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: foodcatalogueapp
-          image: vbmb2012/foodcatalogue:0.0.35
+          image: vbmb2012/foodcatalogue:1.0.9
           imagePullPolicy: Always
           ports:
             - containerPort: 9092 #
