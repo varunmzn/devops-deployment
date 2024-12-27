@@ -2,8 +2,8 @@ kind: Service
 apiVersion: v1
 metadata:
   labels:
-    name: deployment-angularapp-nodeport
-  name: deployment-angularapp-nodeport
+    name: angularapp
+  name: angularapp
 spec:
   # this will make the service a NodePort service
   type: NodePort
