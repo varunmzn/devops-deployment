@@ -8,7 +8,7 @@ spec:
   # this will make the service a NodePort service
   type: NodePort
   selector:
-    name: angularapp
+    name: angular-service
   ports:
     - protocol: TCP
       # new -> this will be the port used to reach it from outside
